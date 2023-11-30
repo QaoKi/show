@@ -1,0 +1,23 @@
+[
+  {
+    "lot": 1,
+    "speed": 40,
+    "fishNum": 10,
+    "lotInterval": 3,
+    "fishId": 501
+  },
+  {
+    "lot": 2,
+    "speed": 40,
+    "fishNum": 10,
+    "lotInterval": 3,
+    "fishId": 502
+  },
+  {
+    "lot": 3,
+    "speed": 40,
+    "fishNum": 10,
+    "lotInterval": 3,
+    "fishId": 503
+  }
+]

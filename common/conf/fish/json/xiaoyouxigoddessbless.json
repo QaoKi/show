@@ -1,0 +1,149 @@
+[
+  {
+    "roomType": 0,
+    "prob": 1000000,
+    "cond": 500000,
+    "inPool": 0.004,
+    "reward": [
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 200000,
+          "Two": 300000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 300000,
+          "Two": 400000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 400000,
+          "Two": 500000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 500000,
+          "Two": 500000
+        }
+      }
+    ],
+    "initPool": 1000000,
+    "addPool": {
+      "One": 10,
+      "Two": 50
+    },
+    "subPoolTime": {
+      "One": 1200,
+      "Two": 2400
+    },
+    "subPoolCount": {
+      "One": 200000,
+      "Two": 500000
+    }
+  },
+  {
+    "roomType": 1,
+    "prob": 10000000,
+    "cond": 5000000,
+    "inPool": 0.004,
+    "reward": [
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 2000000,
+          "Two": 3000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 3000000,
+          "Two": 4000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 4000000,
+          "Two": 5000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 5000000,
+          "Two": 5000000
+        }
+      }
+    ],
+    "initPool": 10000000,
+    "addPool": {
+      "One": 100,
+      "Two": 500
+    },
+    "subPoolTime": {
+      "One": 1200,
+      "Two": 2400
+    },
+    "subPoolCount": {
+      "One": 2000000,
+      "Two": 5000000
+    }
+  },
+  {
+    "roomType": 2,
+    "prob": 100000000,
+    "cond": 50000000,
+    "inPool": 0.004,
+    "reward": [
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 20000000,
+          "Two": 30000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 30000000,
+          "Two": 40000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 40000000,
+          "Two": 50000000
+        }
+      },
+      {
+        "Prob": 0.25,
+        "Reward": {
+          "One": 50000000,
+          "Two": 50000000
+        }
+      }
+    ],
+    "initPool": 100000000,
+    "addPool": {
+      "One": 1000,
+      "Two": 5000
+    },
+    "subPoolTime": {
+      "One": 1200,
+      "Two": 2400
+    },
+    "subPoolCount": {
+      "One": 20000000,
+      "Two": 50000000
+    }
+  }
+]

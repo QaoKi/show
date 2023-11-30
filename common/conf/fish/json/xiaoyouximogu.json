@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "A",
+    "rate": 2,
+    "prob": 0.0025
+  },
+  {
+    "id": 2,
+    "name": "B",
+    "rate": 3,
+    "prob": 0.0031
+  },
+  {
+    "id": 3,
+    "name": "C",
+    "rate": 10,
+    "prob": 0.0026
+  },
+  {
+    "id": 4,
+    "name": "D",
+    "rate": 15,
+    "prob": 0.0021
+  },
+  {
+    "id": 5,
+    "name": "AE",
+    "rate": 4,
+    "prob": 0.0023
+  },
+  {
+    "id": 6,
+    "name": "AF",
+    "rate": 6,
+    "prob": 0.0024
+  },
+  {
+    "id": 7,
+    "name": "AG",
+    "rate": 10,
+    "prob": 0.0039
+  },
+  {
+    "id": 8,
+    "name": "BE",
+    "rate": 6,
+    "prob": 0.0027
+  },
+  {
+    "id": 9,
+    "name": "BF",
+    "rate": 9,
+    "prob": 0.0038
+  },
+  {
+    "id": 10,
+    "name": "BG",
+    "rate": 15,
+    "prob": 0.0026
+  },
+  {
+    "id": 11,
+    "name": "CE",
+    "rate": 20,
+    "prob": 0.0032
+  },
+  {
+    "id": 12,
+    "name": "CF",
+    "rate": 30,
+    "prob": 0.0034
+  },
+  {
+    "id": 13,
+    "name": "CG",
+    "rate": 50,
+    "prob": 0.0034
+  },
+  {
+    "id": 14,
+    "name": "DE",
+    "rate": 30,
+    "prob": 0.0021
+  },
+  {
+    "id": 15,
+    "name": "DF",
+    "rate": 45,
+    "prob": 0.0025
+  },
+  {
+    "id": 16,
+    "name": "DG",
+    "rate": 75,
+    "prob": 0.0078
+  },
+  {
+    "id": 17,
+    "name": "AB",
+    "rate": 5,
+    "prob": 0.0022
+  },
+  {
+    "id": 18,
+    "name": "AC",
+    "rate": 12,
+    "prob": 0.0032
+  },
+  {
+    "id": 19,
+    "name": "AD",
+    "rate": 17,
+    "prob": 0.0032
+  },
+  {
+    "id": 20,
+    "name": "BC",
+    "rate": 13,
+    "prob": 0.0021
+  },
+  {
+    "id": 21,
+    "name": "BD",
+    "rate": 18,
+    "prob": 0.0034
+  },
+  {
+    "id": 22,
+    "name": "CD",
+    "rate": 25,
+    "prob": 0.0029
+  },
+  {
+    "id": 23,
+    "name": "ABE",
+    "rate": 10,
+    "prob": 0.0032
+  },
+  {
+    "id": 24,
+    "name": "ABF",
+    "rate": 15,
+    "prob": 0.0037
+  },
+  {
+    "id": 25,
+    "name": "ABG",
+    "rate": 25,
+    "prob": 0.0022
+  },
+  {
+    "id": 26,
+    "name": "ACE",
+    "rate": 24,
+    "prob": 0.0022
+  },
+  {
+    "id": 27,
+    "name": "ACF",
+    "rate": 36,
+    "prob": 0.0031
+  },
+  {
+    "id": 28,
+    "name": "ACG",
+    "rate": 60,
+    "prob": 0.0027
+  },
+  {
+    "id": 29,
+    "name": "ADE",
+    "rate": 34,
+    "prob": 0.0035
+  },
+  {
+    "id": 30,
+    "name": "ADF",
+    "rate": 51,
+    "prob": 0.0026
+  },
+  {
+    "id": 31,
+    "name": "ADG",
+    "rate": 85,
+    "prob": 0.0039
+  },
+  {
+    "id": 32,
+    "name": "BCE",
+    "rate": 26,
+    "prob": 0.0025
+  },
+  {
+    "id": 33,
+    "name": "BCF",
+    "rate": 39,
+    "prob": 0.0036
+  },
+  {
+    "id": 34,
+    "name": "BCG",
+    "rate": 65,
+    "prob": 0.0034
+  },
+  {
+    "id": 35,
+    "name": "BDE",
+    "rate": 36,
+    "prob": 0.0021
+  },
+  {
+    "id": 36,
+    "name": "BDF",
+    "rate": 54,
+    "prob": 0.0027
+  },
+  {
+    "id": 37,
+    "name": "BDG",
+    "rate": 90,
+    "prob": 0.0055
+  },
+  {
+    "id": 38,
+    "name": "CDE",
+    "rate": 50,
+    "prob": 0.0037
+  },
+  {
+    "id": 39,
+    "name": "CDF",
+    "rate": 75,
+    "prob": 0.0056
+  },
+  {
+    "id": 40,
+    "name": "CDG",
+    "rate": 125,
+    "prob": 0.0367
+  },
+  {
+    "id": 41,
+    "name": "ABC",
+    "rate": 15,
+    "prob": 0.0023
+  },
+  {
+    "id": 42,
+    "name": "BCD",
+    "rate": 28,
+    "prob": 0.0036
+  },
+  {
+    "id": 43,
+    "name": "CDA",
+    "rate": 27,
+    "prob": 0.0038
+  },
+  {
+    "id": 44,
+    "name": "ABD",
+    "rate": 20,
+    "prob": 0.0021
+  },
+  {
+    "id": 45,
+    "name": "ABCE",
+    "rate": 30,
+    "prob": 0.0056
+  },
+  {
+    "id": 46,
+    "name": "ABCF",
+    "rate": 45,
+    "prob": 0.0076
+  },
+  {
+    "id": 47,
+    "name": "ABCG",
+    "rate": 75,
+    "prob": 0.0078
+  },
+  {
+    "id": 48,
+    "name": "BCDE",
+    "rate": 56,
+    "prob": 0.0063
+  },
+  {
+    "id": 49,
+    "name": "BCDF",
+    "rate": 84,
+    "prob": 0.0195
+  },
+  {
+    "id": 50,
+    "name": "BCDG",
+    "rate": 140,
+    "prob": 0.0409
+  },
+  {
+    "id": 51,
+    "name": "CDAE",
+    "rate": 54,
+    "prob": 0.0051
+  },
+  {
+    "id": 52,
+    "name": "CDAF",
+    "rate": 81,
+    "prob": 0.0324
+  },
+  {
+    "id": 53,
+    "name": "CDAG",
+    "rate": 135,
+    "prob": 0.0469
+  },
+  {
+    "id": 54,
+    "name": "ABDE",
+    "rate": 40,
+    "prob": 0.0194
+  },
+  {
+    "id": 55,
+    "name": "ABDF",
+    "rate": 60,
+    "prob": 0.0352
+  },
+  {
+    "id": 56,
+    "name": "ABDG",
+    "rate": 100,
+    "prob": 0.0569
+  },
+  {
+    "id": 57,
+    "name": "ABCD",
+    "rate": 30,
+    "prob": 0.0201
+  },
+  {
+    "id": 58,
+    "name": "ABCEF",
+    "rate": 90,
+    "prob": 0.0529
+  },
+  {
+    "id": 59,
+    "name": "ABCFG",
+    "rate": 225,
+    "prob": 0.0481
+  },
+  {
+    "id": 60,
+    "name": "ABCGE",
+    "rate": 150,
+    "prob": 0.0586
+  },
+  {
+    "id": 61,
+    "name": "BCDEF",
+    "rate": 168,
+    "prob": 0.0502
+  },
+  {
+    "id": 62,
+    "name": "BCDFG",
+    "rate": 420,
+    "prob": 0.0074
+  },
+  {
+    "id": 63,
+    "name": "BCDGE",
+    "rate": 280,
+    "prob": 0.0223
+  },
+  {
+    "id": 64,
+    "name": "CDAEF",
+    "rate": 162,
+    "prob": 0.0259
+  },
+  {
+    "id": 65,
+    "name": "CDAFG",
+    "rate": 405,
+    "prob": 0.0078
+  },
+  {
+    "id": 66,
+    "name": "CDAGE",
+    "rate": 270,
+    "prob": 0.0193
+  },
+  {
+    "id": 67,
+    "name": "ABDEF",
+    "rate": 120,
+    "prob": 0.0398
+  },
+  {
+    "id": 68,
+    "name": "ABDFG",
+    "rate": 300,
+    "prob": 0.0112
+  },
+  {
+    "id": 69,
+    "name": "ABDGE",
+    "rate": 200,
+    "prob": 0.0291
+  },
+  {
+    "id": 70,
+    "name": "ABCDE",
+    "rate": 60,
+    "prob": 0.0124
+  },
+  {
+    "id": 71,
+    "name": "ABCDF",
+    "rate": 90,
+    "prob": 0.0269
+  },
+  {
+    "id": 72,
+    "name": "ABCDG",
+    "rate": 150,
+    "prob": 0.0199
+  },
+  {
+    "id": 73,
+    "name": "ABCEFG",
+    "rate": 450,
+    "prob": 0.0081
+  },
+  {
+    "id": 74,
+    "name": "BCDEFG",
+    "rate": 840,
+    "prob": 0.0067
+  },
+  {
+    "id": 75,
+    "name": "CDAEFG",
+    "rate": 810,
+    "prob": 0.0069
+  },
+  {
+    "id": 76,
+    "name": "ABDEFG",
+    "rate": 600,
+    "prob": 0.0076
+  },
+  {
+    "id": 77,
+    "name": "ABCDEF",
+    "rate": 180,
+    "prob": 0.0384
+  },
+  {
+    "id": 78,
+    "name": "ABCDFG",
+    "rate": 450,
+    "prob": 0.007
+  },
+  {
+    "id": 79,
+    "name": "ABCDGE",
+    "rate": 300,
+    "prob": 0.0112
+  },
+  {
+    "id": 80,
+    "name": "ABCDEFG",
+    "rate": 900,
+    "prob": 0.0065
+  }
+]

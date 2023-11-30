@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "gameTime": {
+      "One": 600,
+      "Two": 1200
+    },
+    "changeGunTime": {
+      "One": 120,
+      "Two": 240
+    },
+    "changeActionTime": {
+      "One": 30,
+      "Two": 120
+    },
+    "robotActionList": [
+      1,
+      2,
+      3
+    ],
+    "suoDingTime": {
+      "One": 5,
+      "Two": 20
+    },
+    "suoDingFishId": 501,
+    "changeAngleTime": {
+      "One": 1,
+      "Two": 5
+    },
+    "gunSpeedTime": {
+      "One": 1,
+      "Two": 5
+    },
+    "gunSpeed": {
+      "One": 1,
+      "Two": 5
+    },
+    "drawTime": {
+      "One": 10,
+      "Two": 20
+    },
+    "poseidonTime": {
+      "One": 30,
+      "Two": 60
+    },
+    "hitPorb": {
+      "One": 0.9,
+      "Two": 1.3
+    },
+    "hitPorbTime": {
+      "One": 60,
+      "Two": 300
+    }
+  }
+]

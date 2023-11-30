@@ -1,0 +1,39 @@
+[
+  {
+    "screenDirection": 1,
+    "speed": 40,
+    "fishList": [
+      {
+        "YLine": 100,
+        "FishId": 501,
+        "Num": 10
+      },
+      {
+        "YLine": 200,
+        "FishId": 502,
+        "Num": 10
+      },
+      {
+        "YLine": 300,
+        "FishId": 503,
+        "Num": 10
+      }
+    ]
+  },
+  {
+    "screenDirection": 2,
+    "speed": 40,
+    "fishList": [
+      {
+        "YLine": 150,
+        "FishId": 501,
+        "Num": 10
+      },
+      {
+        "YLine": 250,
+        "FishId": 502,
+        "Num": 10
+      }
+    ]
+  }
+]

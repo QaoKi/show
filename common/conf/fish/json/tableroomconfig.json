@@ -1,0 +1,20 @@
+[
+  {
+    "roomType": 0,
+    "name": "初级场",
+    "initTableCount": 1,
+    "minCoin": 100,
+    "minExp": 10,
+    "minRate": 100,
+    "maxRate": 1000
+  },
+  {
+    "roomType": 1,
+    "name": "中级场",
+    "initTableCount": 1,
+    "minCoin": 1000,
+    "minExp": 100,
+    "minRate": 1000,
+    "maxRate": 10000
+  }
+]

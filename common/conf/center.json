@@ -1,0 +1,266 @@
+{
+    "gameList":[
+        {
+            "gameId":"1",
+            "name":"Domino",
+            "package":"domino",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"",
+            "serverName":"domino"
+        },
+        {
+            "gameId":"2",
+            "name":"Domino Wild",
+            "package":"domino",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"",
+            "serverName":"domino"
+        },
+        {
+            "gameId":"3",
+            "name":"Domino Bet",
+            "package":"domino",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"",
+            "serverName":"domino"
+
+        },
+        {
+            "gameId":"4",
+            "name":"Bali treasure",
+            "package":"indiaSolt",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"",
+            "serverName":"slots"
+        },
+        {
+            "gameId":"5",
+            "name":"New Fishing Era",
+            "package":"fish",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":""
+        },
+        {
+            "gameId":"6",
+            "name":"QiuQiu Baccarat",
+            "package":"",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":""
+        },
+        {
+            "gameId":"7",
+            "name":"Remi",
+            "package":"",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":""
+        },
+        {
+            "gameId":"8",
+            "name":"Slots",
+            "package":"",
+            "type":1,
+            "priority":0,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":""
+        },
+        {
+            "gameId":"9",
+            "name":"Chinese Poker",
+            "package":"",
+            "type":2,
+            "priority":1,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Chess and Cards"
+        },
+        {
+            "gameId":"10",
+            "name":"Caribbean",
+            "package":"",
+            "type":2,
+            "priority":1,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Chess and Cards"
+        },
+        {
+            "gameId":"11",
+            "name":"ShowhandS",
+            "package":"",
+            "type":2,
+            "priority":1,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Chess and Cards"
+        },
+        {
+            "gameId":"12",
+            "name":"Ludo",
+            "package":"",
+            "type":2,
+            "priority":2,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Chip Bettings"
+        },
+        {
+            "gameId":"13",
+            "name":"Luckfish",
+            "package":"",
+            "type":2,
+            "priority":2,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Chip Bettings"
+        },
+        {
+            "gameId":"14",
+            "name":"Luckfish",
+            "package":"",
+            "type":2,
+            "priority":3,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Lottos and Slots"
+        },
+        {
+            "gameId":"14",
+            "name":"Slots",
+            "package":"",
+            "type":2,
+            "priority":3,
+            "disable":false,
+            "requiredLevel":0,
+            "classify":"Lottos and Slots"
+        }
+    ],
+    "playRoom": [
+        {
+            "gameId": "1",
+            "min_ante" : 150000,
+            "min_coin" : 1000000,
+            "max_coin" : 6000000,
+            "room_type": 1
+        },
+        {
+            "gameId": "1",
+            "ante" : 500000,
+            "minCoin" : 5000000,
+            "maxCoin" : 30000000,
+            "roomType": 1
+        },
+        {
+            "gameId": "1",
+            "ante" : 2000000,
+            "minCoin" : 20000000,
+            "maxCoin" : 120000000,
+            "roomType": 1
+        },
+        {
+            "gameId": "1",
+            "ante" : 5000000,
+            "minCoin" : 50000000,
+            "maxCoin" : -1,
+            "roomType": 1
+        },
+        {
+            "gameId": "1",
+            "ante" : 1000000,
+            "minCoin" : 1,
+            "maxCoin" : -1,
+            "roomType": 2
+        },
+        {
+            "gameId":"2",
+            "ante" : 150000,
+            "minCoin" : 1000000,
+            "maxCoin" : 6000000,
+            "roomType": 1
+        },
+        {
+            "gameId":"2",
+            "ante" : 500000,
+            "minCoin" : 5000000,
+            "maxCoin" : 30000000,
+            "roomType": 1
+        },
+        {
+            "gameId":"2",
+            "ante" : 2000000,
+            "minCoin" : 20000000,
+            "maxCoin" : -1,
+            "roomType": 1
+        },
+        {
+            "gameId":"2",
+            "ante" : 3000000,
+            "minCoin" : 30000000,
+            "maxCoin" : -1,
+            "roomType": 1
+        },
+        {
+            "gameId":"2",
+            "ante" : 1000000,
+            "minCoin" : 1,
+            "maxCoin" : -1,
+            "roomType": 2
+        },
+        {
+            "gameId":"3",
+            "ante" : 20000,
+            "minCoin" : 1000000,
+            "maxCoin" : 8000000,
+            "roomType": 1
+        },
+        {
+            "gameId":"3",
+            "ante" : 100000,
+            "minCoin" : 5000000,
+            "maxCoin" : 30000000,
+            "roomType": 1
+        },
+        {
+            "gameId":"3",
+            "ante" : 500000,
+            "minCoin" : 20000000,
+            "maxCoin" : 200000000,
+            "roomType": 1
+        },
+        {
+            "gameId":"3",
+            "ante" : 2000000,
+            "minCoin" : 10000000,
+            "maxCoin" : -1,
+            "roomType": 1
+        },
+        {
+            "gameId":"3",
+            "ante" : 1000000,
+            "minCoin" : 1,
+            "maxCoin" : -1,
+            "roomType": 2
+        }
+    ]
+}

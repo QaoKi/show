@@ -1,0 +1,36 @@
+stages:
+  - deploy
+
+
+deploy-test:
+  stage: deploy # 测试
+  script:
+    - export HOSTS=node_test
+    - export DEPLOY_ENV=test
+    - export PROJECT_PATH=/data/www/"$DEPLOY_ENV"/"$CI_PROJECT_NAME"
+    - export ETC_PATH=/data/www/game-etcd/"$CI_PROJECT_NAME"/"$DEPLOY_ENV"/.
+    - ansible -u www "$HOSTS" -m shell -a "mkdir -p $PROJECT_PATH"
+    - ansible -u www "$HOSTS" -m synchronize -a "compress=yes delete=yes rsync_opts='--exclude=.git,--quiet' src=./ dest=$PROJECT_PATH"
+    - ansible -u www "$HOSTS" -m synchronize -a "group=no owner=no times=no  compress=yes archive=yes rsync_opts='--exclude=.git,--quiet' src=$ETC_PATH dest=$PROJECT_PATH rsync_path=rsync"
+    - ansible -u www "$HOSTS" -m shell -a "pm2 restart bygame"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "develop"'
+      when: always
+  tags:
+    - shell
+
+deploy-prod:
+  stage: deploy # 生产环境
+  script:
+    - export HOSTS=game
+    - export DEPLOY_ENV=prod
+    - export PROJECT_PATH=/data/www/"$DEPLOY_ENV"/"$CI_PROJECT_NAME"
+    - export ETC_PATH=/data/www/game-etcd/"$CI_PROJECT_NAME"/"$DEPLOY_ENV"/.
+    - ansible -u www "$HOSTS" -m shell -a "mkdir -p $PROJECT_PATH"
+    - ansible -u www "$HOSTS" -m synchronize -a "compress=yes delete=yes rsync_opts='--exclude=.git,--quiet' src=./ dest=$PROJECT_PATH"
+    - ansible -u www "$HOSTS" -m synchronize -a "group=no owner=no times=no  compress=yes archive=yes rsync_opts='--exclude=.git,--quiet' src=$ETC_PATH dest=$PROJECT_PATH rsync_path=rsync"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+      when: always
+  tags:
+    - shell

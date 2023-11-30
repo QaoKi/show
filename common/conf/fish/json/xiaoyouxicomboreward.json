@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "count": 100,
+    "coinBuffer": 0.01,
+    "maxCombo": 2000
+  }
+]

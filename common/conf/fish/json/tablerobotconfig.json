@@ -1,0 +1,149 @@
+[
+  {
+    "roomType": 0,
+    "coin": {
+      "One": 50000,
+      "Two": 1000000
+    },
+    "changeGunCoin": [
+      {
+        "CoinRange": {
+          "One": 50000,
+          "Two": 100000
+        },
+        "GunRange": {
+          "One": 100,
+          "Two": 200
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 100000,
+          "Two": 300000
+        },
+        "GunRange": {
+          "One": 200,
+          "Two": 400
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 300000,
+          "Two": 600000
+        },
+        "GunRange": {
+          "One": 200,
+          "Two": 500
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 600000,
+          "Two": 1000000
+        },
+        "GunRange": {
+          "One": 200,
+          "Two": 800
+        }
+      }
+    ]
+  },
+  {
+    "roomType": 1,
+    "coin": {
+      "One": 200000,
+      "Two": 10000000
+    },
+    "changeGunCoin": [
+      {
+        "CoinRange": {
+          "One": 200000,
+          "Two": 1000000
+        },
+        "GunRange": {
+          "One": 1000,
+          "Two": 2000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 1000000,
+          "Two": 3000000
+        },
+        "GunRange": {
+          "One": 1000,
+          "Two": 3000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 3000000,
+          "Two": 5000000
+        },
+        "GunRange": {
+          "One": 2000,
+          "Two": 5000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 5000000,
+          "Two": 10000000
+        },
+        "GunRange": {
+          "One": 3000,
+          "Two": 8000
+        }
+      }
+    ]
+  },
+  {
+    "roomType": 2,
+    "coin": {
+      "One": 5000000,
+      "Two": 40000000
+    },
+    "changeGunCoin": [
+      {
+        "CoinRange": {
+          "One": 5000000,
+          "Two": 10000000
+        },
+        "GunRange": {
+          "One": 10000,
+          "Two": 20000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 10000000,
+          "Two": 20000000
+        },
+        "GunRange": {
+          "One": 10000,
+          "Two": 30000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 20000000,
+          "Two": 30000000
+        },
+        "GunRange": {
+          "One": 10000,
+          "Two": 40000
+        }
+      },
+      {
+        "CoinRange": {
+          "One": 30000000,
+          "Two": 40000000
+        },
+        "GunRange": {
+          "One": 10000,
+          "Two": 50000
+        }
+      }
+    ]
+  }
+]

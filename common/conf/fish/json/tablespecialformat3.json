@@ -1,0 +1,20 @@
+[
+  {
+    "screenDirection": 1,
+    "speed": 40,
+    "outerFishId": 501,
+    "outerFishNum": 10,
+    "innerFishId": 502,
+    "innerFishNum": 10,
+    "midFishId": 503
+  },
+  {
+    "screenDirection": 2,
+    "speed": 40,
+    "outerFishId": 502,
+    "outerFishNum": 10,
+    "innerFishId": 503,
+    "innerFishNum": 10,
+    "midFishId": 503
+  }
+]

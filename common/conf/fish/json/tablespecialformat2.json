@@ -1,0 +1,23 @@
+[
+  {
+    "lot": 1,
+    "speed": 40,
+    "firstPathFishId": 501,
+    "secondPathFishId": 0,
+    "thirdPathFishId": 501
+  },
+  {
+    "lot": 2,
+    "speed": 40,
+    "firstPathFishId": 501,
+    "secondPathFishId": 501,
+    "thirdPathFishId": 0
+  },
+  {
+    "lot": 3,
+    "speed": 40,
+    "firstPathFishId": 501,
+    "secondPathFishId": 501,
+    "thirdPathFishId": 502
+  }
+]
